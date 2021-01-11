@@ -23,6 +23,7 @@ As a user i can
 - log out
 
 The login page:
+
 The index page:
 The registration page:
 
