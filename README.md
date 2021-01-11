@@ -7,9 +7,15 @@ Built with:
 - Bootstrap
 - CSS
 - JavaScript
-- JQuery
 
-
+This app fulfills the following stories:
+As a user i can
+- add a task
+- read a list of tasks
+- search for a task
+- edit any task
+- mark any task as "completed"
+- delete any task
 
 The login page:
 The index page:
