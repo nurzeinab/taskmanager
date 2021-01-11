@@ -1,3 +1,4 @@
+
 $(document).ready(() => {                                          // wait for the HTML document to fully loaded and ready
 
     var tasks = 0;                                                     // stores the nomber of tasks in the list 
