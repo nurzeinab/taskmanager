@@ -16,6 +16,7 @@ As a user i can
 - edit any task
 - mark any task as "completed"
 - delete any task
+- delete all task
 
 The login page:
 The index page:
