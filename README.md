@@ -23,6 +23,7 @@ As a user i can
 - log out
 
 The login page:
+![index_page_empty](https://user-images.githubusercontent.com/74472657/104243528-f9d4d280-5460-11eb-8aae-7164baa59b33.png)
 
 The index page:
 The registration page:
