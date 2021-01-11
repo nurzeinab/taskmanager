@@ -23,7 +23,7 @@ As a user i can
 - log out
 
 The login page:
-
+![alt text] (https://github.com/RichardElsasser92/list/blob/main/Screenshots/index_page_empty.png?raw=true)
 The index page:
 The registration page:
 
