@@ -1,4 +1,6 @@
-# Richard's To Do List App
+# To Do List App "TASK MANAGEMENT"
+
+--> This is only a "demonstrator" with no backend.
 
 Built with:
 - HTML
@@ -7,5 +9,6 @@ Built with:
 - JavaScript
 - JQuery
 
-Overview:
-(Insert Screenshot)
+The login page:
+The index page:
+The registration page:
