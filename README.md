@@ -7,12 +7,13 @@ Built with:
 - Bootstrap
 - CSS
 - JavaScript
-using Local Storage
+- Local Storage
 
 This app fulfills the following stories:
 As a user i can
 - log in into the task manager
 - add a task
+- save a task into the local storage
 - read a list of tasks
 - search for a task
 - edit any task
