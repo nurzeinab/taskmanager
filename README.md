@@ -10,6 +10,7 @@ Built with:
 - Local Storage
 
 This app fulfills the following stories:\
+
 As a user i can...
 - create an account
 - log in
