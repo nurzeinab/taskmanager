@@ -9,16 +9,17 @@ Built with:
 - JavaScript
 - Local Storage
 
-This app fulfills the following stories:
-As a user i can
-- log in into the task manager
+This app fulfills the following stories:\
+As a user i can...
+- create an account
+- log in
 - add a task
-- save a task into the local storage
+- edit a task
+- save a task
 - read a list of tasks
 - search for a task
-- edit any task
-- mark any task as "completed"
-- delete any task
+- mark a task as "completed"
+- delete a task
 - delete all task
 - log out
 
@@ -30,7 +31,7 @@ If you just log in without creating an account or log in with incorrect informat
 ![error_on_login](https://user-images.githubusercontent.com/74472657/104363361-5a254c00-5515-11eb-982e-76c81cedaa1e.png)
 
 
-That means you should create an account first. Once you have registered, the following notification will be displayed: "Your account has been created":
+That means you should register first. Once you have registered, the following notification will be displayed: "Your account has been created":
 ![account_created](https://user-images.githubusercontent.com/74472657/104363969-3c0c1b80-5516-11eb-82f6-39912cc1449b.png)
 
 
