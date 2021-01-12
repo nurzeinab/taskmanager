@@ -34,7 +34,11 @@ That means you should create an account first. Once you have registered, the fol
 
 ![account_created](https://user-images.githubusercontent.com/74472657/104363969-3c0c1b80-5516-11eb-82f6-39912cc1449b.png)
 
-The log in page appears again so that you can now log in with the registered data. After logging in, the message "You are logged in" pops up and the Task Manager opens:
+As you can see the data will be stored in the local storage:
+
+![registration_data](https://user-images.githubusercontent.com/74472657/104364561-13385600-5517-11eb-9753-e5b47611db19.png)
+
+The log in page appears again so that you can now log in with the registered data. After logging in, the message "You are logged in" pops up and the task manager opens:
 
 ![logged_in](https://user-images.githubusercontent.com/74472657/104364293-b50b7300-5516-11eb-90b3-0e680da29b65.png)
 
