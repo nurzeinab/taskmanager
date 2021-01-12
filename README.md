@@ -42,7 +42,7 @@ The log in page appears again so that you can now log in with the registered (st
 ![logged_in](https://user-images.githubusercontent.com/74472657/104364293-b50b7300-5516-11eb-90b3-0e680da29b65.png)
 
 
-The task manager page:
+The task manager page with the registered user's e-mail:
 ![taskmanager_with_tasks](https://user-images.githubusercontent.com/74472657/104364371-ca809d00-5516-11eb-83d7-f5869bc99fb5.png)
 
 
