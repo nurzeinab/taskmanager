@@ -26,11 +26,11 @@
         <div class="row">
           <div class="col-md-6 offset-md-3">
             <form class="form-signin">
-              <label for="inputName" class="sr-only">Name</label>
-              <input type="name" id="inputName" class="form-control" placeholder="Name" required>
+              <label for="email" class="sr-only">E-mail</label>
+              <input type="name" id="usermail" class="form-control" placeholder="E-mail" required>
               <label for="inputPassword" class="sr-only">Password</label>
-              <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-              <button class="btn btn-lg btn-primary btn-block" type="submit" href="index.html">Sign in</button>
+              <input type="password" id="pword" class="form-control" placeholder="Password" required>
+              <a class="btn btn-lg btn-primary btn-block" type="submit" style="margin:20px" onclick="check()">Sign in</a>
               <p class="mt-5 mb-3 text-muted"><small>&copy; Task Management 2021</small></p>
             </form>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -39,6 +39,24 @@
               crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
               crossorigin="anonymous"></script>
+
+            <script>
+              //checking
+              function check() {
+                var storedName = localStorage.getItem('usermail');
+                var storedPw = localStorage.getItem('pword');
+
+                var userName = document.getElementById('usermail');
+                var userPw = document.getElementById('pword');
+
+                if (userName.value == storedName && userPw.value == storedPw) {
+                  alert('You are logged in.');
+                  window.open("index.html")
+                } else {
+                  alert('Error on login');
+                }
+              }
+            </script>
     </body>
 
 </html>

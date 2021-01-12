@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List</title>
+    <title>Task Manager</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <nav class="navbar justify-content-between">
-                        <a class="navbar-brand"><img src="icons/icon.png" alt="Logo"> Task Management</a>
+                        <a style="color: white" class="navbar-brand"><img src="icons/icon.png" alt="Logo"> Task Management</a>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
                                 id="searchtextbox" />
@@ -42,7 +42,11 @@
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-sm-12 col-md-8">
-                    <h1>What's your plans today?</h1>
+                    <div>
+                        <h1>Hi <span id="user"></span>!</h1>
+                        
+                    </div>
+                    <h2>What are your plans for today?</h2>
                     <div class="todo-inner">
                         <div class="form-row">
                             <div class="col-8 mr-sm-2">
@@ -76,6 +80,10 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById("user").innerHTML = localStorage.getItem("usermail");
+    </script>
 </body>
 
 </html>

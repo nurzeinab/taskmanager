@@ -168,7 +168,7 @@ deleteallbtn.addEventListener("click", function () {
 })
 
 
-// serachlist
+// searchlist
 let searchtextbox = document.getElementById("searchtextbox");
 searchtextbox.addEventListener("input", function () {
     let trlist = document.querySelectorAll("tr");
