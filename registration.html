@@ -24,12 +24,18 @@
                     <form>
                         <div class="form-group">
                             <label for="email">E-mail</label>
-                            <input type="text" class="form-control" name="mail" id="usermail"/>
+                            <input type="text" class="form-control" name="mail" id="usermail" />
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
                             <input type="password" class="form-control" name="password" id="pword" />
                         </div>
+                        <ul class="helper-text">
+                            <li class="length">Must be at least 8 characters long.</li>
+                            <li class="lowercase">Must contain a lowercase letter.</li>
+                            <li class="uppercase">Must contain an uppercase letter.</li>
+                            <li class="special">Must contain a number or special character.</li>
+                        </ul>
                         <a class="btn btn-lg btn-primary btn-block" style="background-color:#047cfc;" type="submit"
                             value="Register" onclick="store()">Sign Up!</a>
                     </form>
