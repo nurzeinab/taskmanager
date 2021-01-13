@@ -9,6 +9,9 @@ Built with:
 - JavaScript
 - Local Storage
 
+Deployed with Heroku\
+Link: https://dashboard.heroku.com/apps/richards-taskmanager/settings
+
 This app fulfills the following stories:\
 
 As a user i can...
