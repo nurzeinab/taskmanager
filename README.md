@@ -9,7 +9,10 @@ Built with:
 - JavaScript
 - Local Storage
 
-This app fulfills the following stories:\
+Deployed with Heroku\
+Link: https://richards-taskmanager.herokuapp.com/
+
+This app fulfills the following stories:
 
 As a user i can...
 - create an account
