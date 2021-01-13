@@ -10,7 +10,7 @@ Built with:
 - Local Storage
 
 Deployed with Heroku\
-Link: https://dashboard.heroku.com/apps/richards-taskmanager/settings
+Link: https://richards-taskmanager.herokuapp.com/
 
 This app fulfills the following stories:\
 
