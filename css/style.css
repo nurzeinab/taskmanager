@@ -49,6 +49,10 @@ section.todo-outer h1 {
     background: #fff;
 }
 
+.table-responsive {
+    display: table;
+}
+
 table tr td button {
     background: no-repeat;
     border: none;
