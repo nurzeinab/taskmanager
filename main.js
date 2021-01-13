@@ -13,7 +13,7 @@ addtaskbtn.addEventListener("click", function () {
             taskObj = JSON.parse(webtask);
         }
         taskObj.push({ 'task_name': addtaskinputval, 'completeStatus': false });
-        // console.log(taskObj, 'Ashendra');
+       
         localStorage.setItem("localtask", JSON.stringify(taskObj));
         addtaskinput.value = '';
     }
